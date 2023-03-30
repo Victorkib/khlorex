@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*index.html css*/
+.bodyy{
+    margin-bottom: 700px;
+    height: 100vh;
+    background:url()
+}
+.headerr{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    height: 20vh;
+    
+    border-bottom:1px solid gray ;
+    
+ 
+}
+ .headerr nav{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top:10%;
+    margin: 2px;
+    padding-top: 5px;
+    /* border: 1px solid green; */
+}
+ .headerr nav div{
+      align-items: center;
+}
+  .headerr nav div h1{
+    font-size:2rem ;
+    color: rgb(241, 156, 43);
+    text-transform: capitalize;
+}
+ .headerr nav p{
+    color: gray;
+}
+ .headerr nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .headerr nav li{
+    list-style: none;
+    margin-right: 1em;
+    font-size: 1.2rem;
+}
+.headerr a{
+    transition: all 500ms ease;
+    text-decoration: none;
+}
+.headerr a:hover{
+    border: 1px solid aqua;
+    background-color: aquamarine;
+    border-radius:8px  ;
+}
+/* main*/
+.all{
+    margin: 0;
+    /* margin: 0 auto; */
+    width: 100%;
+   /* border: 1px solid green; */
+
+}
+.box{
+    width: 100%;
+    text-align: center;
+}
+.main{
+    width: 100%;
+  
+}
+.box-1,.box-2,.box-3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    height: 50%;
+    width: 99%;
+    margin: 0 auto;
+    /* max-width: 988px; */
+    /* margin-left: 10px; */
+}
+.box h2{
+    font-size: 1.5em;
+    color: peru;
+    text-transform: capitalize;
+}
+.box h2::first-letter{
+    color: orange;
+    font-size: 2em;
+}
+.element{
+    border: 1px solid rgb(145, 131, 131);
+    border-radius: 8px;
+    margin: 10px;
+    width: 50%;
+    filter: drop-shadow(0 0 2px crimson);
+
+}
+.element-3 video,
+.element-2 video,
+.element-1 video,
+.element-4 video {
+    object-fit: cover;
+    width: 100%;
+    height: 50vh;
+    border-radius: 8px;
+    transition: all 500ms ease;
+}
+.element-3 video:hover,
+.element-2 video:hover,
+.element-1 video:hover,
+.element-4 video:hover{
+    transform: scale(105%);
+}
+
+.element img{
+    object-fit: cover;
+    width:100%;
+    height: 50vh;
+}
+/*footer css*/
+footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(29, 29, 27);
+    width: 100%;
+    height: 50vh;
+    border: 1px solid salmon;
+    padding: 2em;
+   
+}
+.footer{
+    /* display: flex; */
+    box-shadow: 2px 2px 4px magenta;
+    width: 100%;
+    height: 50%;
+    margin: 0 5px;
+}
+.footer p{
+    margin: 2px;
+}
+.fina{
+    background-color: rgb(29, 29, 27);
+    height: 10vh;
+    text-align: center;
+}
+/* .p-2{
+
+} */
+.p-1{
+    width: 80%;
+}
+.p-2{
+    width:20%;
+    font-size: 1.2em;
+    color: brown;
+}
+/* about css*/
+.abtBody{
+    background-color: antiquewhite;
+}
+.hed{
+    width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+        height: 15vh;
+        margin-bottom: 10px;
+        border-bottom: 1px solid gray;
+}
+.columns{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px;
+    /* border: 1px solid gray; */
+    height: 60vh;
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.col{
+    margin:0 2px;
+   
+}
+.col-1{
+width: 60%;
+}
+.col-2 {
+width: 20%;
+}
+.col-3 {
+width: 13%;
+}
+.col-1 video{
+    object-fit: cover;
+        width: 100%;
+        height: 50vh;
+        border-radius: 10px;
+}
+.col-4{
+    margin: 0 2em 0 0;
+}
+
+/*Account css*/
+.contain{
+    border: 1px solid firebrick;
+    filter: drop-shadow(0 0 4px rgba(220, 20, 60, 0.884));
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 380px;
+    height: 65vh;
+    text-align: center;
+    border-radius: 20px 6px 40px 4px;
+    color: aqua;
+}
+.AccBody{
+    background-image: url('JokermaskPic.jpg');
+
+
+}
+.contain h2{
+    font-size: 1.2em;
+    color: gold;
+    margin: 1em 0 0.8em 0;
+}
+.contain h2::first-letter{
+    color: orange;
+    font-size: 3em;
+    letter-spacing: 1.5px;
+}
+.contain input[type="text"]{
+    width: 180px;
+    height: 5vh;
+    border-radius: 8px;
+    background: none;
+    text-align: center;
+    margin: 0 0 0.7em 0;
+    color: aqua
+}
+.contain input[type="password"] {
+    width: 180px;
+    height: 5vh;
+    border-radius: 8px;
+    background: none;
+    text-align: center;
+    margin: 0 0 0.7em 0;
+    color: aqua
+}
+.btn {
+    background: none;
+    margin: 2em;
+    border-radius:30px ;
+    width: 100px;
+    height: 5vh;
+    color: aqua
+}
+/*games.html css*/
+.gamesMain{
+    background-color: azure;
+}
+.columnsGm {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px;
+    
+    height: 60vh;
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.col-11 {
+    width: 80%;
+}
+.col-11 video {
+    object-fit: contain;
+    width: 100%;
+    height: 60vh;
+    border-radius: 10px;
+}
+.footerGm {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(158, 158, 148);
+    width: 100%;
+    height: 50vh;
+    border: 1px solid salmon;
+    padding: 2em;
+
+}
+
+.table{
+    width: 100%;
+    height: 40vh;
+    border: 1px solid green;
+    background-color: blanchedalmond;
+    border-radius:5px 15px 20px 1px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.table caption{
+font-size: 1.8em;
+color: blueviolet;
+}
+.AmainGm{
+    display: flex;
+    border-bottom: 1px solid gray;
+   /* border: 1px solid black; */
+   /* margin-right: 0px; */
+   justify-content: space-between;
+   margin: 0;
+   padding: 0;
+}
+.coll{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    /* width: 70%; */
+}
+.col p{
+    margin: 5px;
+}
+.gm{
+    width: 100%;
+    margin: 5px;
+
+}
+.gm img {
+    object-fit: cover;
+    width: 50%;
+    height: 20vh;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 4px green);
+    transition: all 500ms ease;
+    
+}
+.gm  a img:hover{
+transform: scale(105%);
+}
+.columnsssGm {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* margin: 10px; */
+    /* border: 1px solid rgb(12, 6, 49); */
+    height: 60vh;
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:657px) {
+    
+
+    .headerr div {
+        text-align: center;
+    }
+     .headerr nav{
+    display: flex;
+    flex-direction: column;
+    background-color:antiquewhite;
+}
+    .headerr nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+     .headerr nav li {
+        margin: .25em;
+    }
+
+    .columns {
+        flex-direction: column;
+    }
+    
+}
